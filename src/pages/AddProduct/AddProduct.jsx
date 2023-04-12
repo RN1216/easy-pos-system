@@ -2,15 +2,19 @@ import React from "react";
 
 const AddProduct = () => {
   return (
-    <section className=" w-full bg-white border-slate-200">
-      <div className="w-full px-6 mx-auto my-32">
-        <form className="w-full   ">
-          <div className="w-full grid grid-cols-3 gap-x-4 gap-y-4  ">
+    <section className=" w-full bg-white border-slate-500">
+      <header>
+          <h2 className="text-4xl font-bold leading-7 mt-20  text-gray-600">Add Products</h2>
+      </header>
+
+      <div className="w-full px-6 mx-auto my-10">
+        <form className="w-full mx-17 my-17 p-14 bg-slate-50   border rounded-lg  border-gray-200 ">
+          <div className="w-full grid lg:grid-cols-3 gap-x-4 gap-y-4 md:grid-cols-2 sm:grid-cols-1 ">
           <div className="">
             <div className=" mb-5">
               <label
                 for="name"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Name
               </label>
@@ -24,7 +28,7 @@ const AddProduct = () => {
             <div className="  items-center mb-5">
               <label
                 for="product-catagory"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Product Category
               </label>
@@ -45,7 +49,7 @@ const AddProduct = () => {
             <div className="  items-center mb-5">
               <label
                 for="product-catagory"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Barcode Symbology :
               </label>
@@ -67,7 +71,7 @@ const AddProduct = () => {
             <div className=" mb-5">
               <label
                 for="name"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Product Price:
               </label>
@@ -80,7 +84,7 @@ const AddProduct = () => {
             <div className="  items-center mb-5">
               <label
                 for="product-catagory"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Sale Unit :
               </label>
@@ -102,7 +106,7 @@ const AddProduct = () => {
             <div className=" mb-5">
               <label
                 for="name"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Stock Alert:
               </label>
@@ -116,7 +120,7 @@ const AddProduct = () => {
             <div className="  items-center mb-5">
               <label
                 for="product-catagory"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Tax Type :
               </label>
@@ -140,7 +144,7 @@ const AddProduct = () => {
             <div className="  mb-5">
               <label
                 for="code"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Code
               </label>
@@ -153,7 +157,7 @@ const AddProduct = () => {
             <div className="  items-center mb-5">
               <label
                 for="product-catagory"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Brand :
               </label>
@@ -174,7 +178,7 @@ const AddProduct = () => {
             <div className=" mb-5">
               <label
                 for="name"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Product Cost:
               </label>
@@ -187,7 +191,7 @@ const AddProduct = () => {
             <div className="  items-center mb-5">
               <label
                 for="product-catagory"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Product Unit :
               </label>
@@ -208,7 +212,7 @@ const AddProduct = () => {
             <div className="  items-center mb-5">
               <label
                 for="product-catagory"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Purchase Unit :
               </label>
@@ -229,7 +233,7 @@ const AddProduct = () => {
             <div className=" mb-5">
               <label
                 for="name"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Order Tax:
               </label>
@@ -242,7 +246,7 @@ const AddProduct = () => {
             <div className=" mb-5">
               <label
                 for="name"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Quantity Limitation:
               </label>
@@ -255,7 +259,7 @@ const AddProduct = () => {
           </div>
           
           <div className="">
-          <label for="cover-photo" class="block text-sm font-medium leading-6 text-gray-900">Multiple Image:</label>
+          <label for="cover-photo" class="block text-sm font-medium leading-6   text-gray-600">Multiple Image:</label>
           <div class="mt-2 flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10">
             <div class="text-center">
               <svg class="mx-auto h-12 w-12 text-gray-300" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -272,13 +276,13 @@ const AddProduct = () => {
             </div>
           </div>
           <div  className="text-center mt-5 mb-3 ">
-          <h2 class="text-4xl font-bold leading-7 text-gray-900">Add Stock</h2>
+          <h2 className="text-4xl font-bold leading-7   text-gray-600">Add Stock</h2>
           </div>
 
           <div className="  items-center mb-5">
               <label
                 for="product-catagory"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Warehouse
               </label>
@@ -299,7 +303,7 @@ const AddProduct = () => {
             <div className="  items-center mb-5">
               <label
                 for="product-catagory"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Supplier :
               </label>
@@ -321,7 +325,7 @@ const AddProduct = () => {
             <div className=" mb-5">
               <label
                 for="name"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Add Product Quantity:
               </label>
@@ -335,7 +339,7 @@ const AddProduct = () => {
              <div className="  items-center mb-5">
               <label
                 for="product-catagory"
-                className="block text-sm font-medium leading-6 text-gray-900"
+                className="block text-sm font-medium leading-6   text-gray-600"
               >
                 Status :
 
@@ -360,19 +364,19 @@ const AddProduct = () => {
           </div>
          <div className="w-2/3 grid grid-cols-2">
          <div class="col-span-full">
-          <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Notes</label>
+          <label for="about" class="block text-sm font-medium leading-6   text-gray-600">Notes</label>
           <div class="mt-2">
-            <textarea id="about" name="about" rows="3" placeholder="Enter Some Notes" class="block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:py-1.5 sm:text-sm sm:leading-6"></textarea>
+            <textarea id="about" name="about" rows="3" placeholder="Enter Some Notes" class="block w-full rounded-md border-0   text-gray-600 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:py-1.5 sm:text-sm sm:leading-6"></textarea>
           </div>
           
         </div>
 
          </div>
-         <div className="w-full grid grid-cols-10 gap-x-4 items-end mt-6 ">
-         <button className=" px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-gray-500 rounded-lg hover:bg-gray-400 focus:outline-none focus:ring focus:ring-indigo-300 focus:ring-opacity-50">
+         <div className="w-full grid lg:grid-cols-10 md:lg:grid-cols-10 sm:lg:grid-cols-10 gap-x-4 items-end mt-6 ">
+         <button className="mb-1 px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-gray-500 rounded-lg hover:bg-gray-400 focus:outline-none focus:ring focus:ring-indigo-300 focus:ring-opacity-50">
              cancle
             </button>
-         <button className=" px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-500 rounded-lg hover:bg-indigo-400 focus:outline-none focus:ring focus:ring-indigo-300 focus:ring-opacity-50">
+         <button className="mb-1 px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-500 rounded-lg hover:bg-indigo-400 focus:outline-none focus:ring focus:ring-indigo-300 focus:ring-opacity-50">
               Save
             </button>
          </div>
