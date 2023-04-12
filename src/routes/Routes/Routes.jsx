@@ -6,6 +6,8 @@ import ManageProducts from "../../pages/ManageProducts/ManageProducts";
 import Dashboard from "../../pages/Dashboard/Dashboard";
 import Register from './../../pages/Register/Register';
 import AddProduct from "../../pages/AddProduct/AddProduct";
+import Orders from "../../pages/Orders/Orders";
+import Reports from "../../pages/Reports/Reports";
 
 export const routes = createBrowserRouter([
     {
@@ -27,6 +29,14 @@ export const routes = createBrowserRouter([
              {
                 path: '/add-product',
                 element: <AddProduct/>
+            },
+            {
+                path: '/orders',
+                element: <Orders/>
+            },
+            {
+                path: '/reports',
+                element: <Reports/>
             },
         ]
     },

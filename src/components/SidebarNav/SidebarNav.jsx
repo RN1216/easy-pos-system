@@ -37,8 +37,8 @@ const SidebarNav = () => {
           <MenuItem icon={<MdOutlineManageSearch/>} component={<Link to="/manage-products" />}> Manage Products </MenuItem>
           <MenuItem icon={<MdPostAdd/>} component={<Link to="/add-product" />}> Add Products </MenuItem>
         </SubMenu>
-        <MenuItem icon={<MdShoppingCartCheckout/>}> Orders</MenuItem>
-        <MenuItem icon={<MdInsertChartOutlined/>}> Reports</MenuItem>
+        <MenuItem icon={<MdShoppingCartCheckout/>} component={<Link to="/orders" />} > Orders</MenuItem>
+        <MenuItem icon={<MdInsertChartOutlined/>} component={<Link to="/reports" />} > Reports</MenuItem>
       </Menu>
     </Sidebar>
   );

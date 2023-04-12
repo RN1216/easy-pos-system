@@ -4,7 +4,7 @@ const AddProduct = () => {
   return (
     <section className=" w-full bg-white border-slate-500">
       <header>
-          <h2 className="text-4xl font-bold leading-7 mt-20  text-gray-600">Add Products</h2>
+          <h2 className="text-4xl font-bold leading-7 p-6 text-gray-600">Add Products</h2>
       </header>
 
       <div className="w-full px-6 mx-auto my-10">
@@ -362,7 +362,7 @@ const AddProduct = () => {
           </div>
          
           </div>
-         <div className="w-2/3 grid grid-cols-2">
+         <div className="lg:w-2/3 grid grid-cols-2 sm:w-full">
          <div class="col-span-full">
           <label for="about" class="block text-sm font-medium leading-6   text-gray-600">Notes</label>
           <div class="mt-2">

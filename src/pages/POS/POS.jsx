@@ -22,13 +22,22 @@ const POS = () => {
             .includes(query.toLowerCase().replace(/\s+/g, ''))
       )
     return (
-        <div className='w-full mx-auto grid grid-cols-3'>
+
+      <section className='w-full mx-auto '>
+        <header>
+          <h2 className="text-4xl font-bold leading-7 p-6 text-gray-600">Orders</h2>
+      </header>
+
+      <div className='w-full p-6 grid grid-cols-3'>
             <div className='col-span-2'>
                <ProductSearchBar selected={selected} setSelected={setSelected} setQuery={setQuery}/>
                <DisplayProducts filteredProducts={filteredProducts} query={query}/>
             </div>
             <Cart className='col-span-1'/>
         </div>
+      </section>
+
+       
     );
 };
 
