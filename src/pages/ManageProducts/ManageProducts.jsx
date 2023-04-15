@@ -4,7 +4,7 @@ import { ProductContext } from '../../App';
 const ManageProducts = () => {
     const {products} = useContext(ProductContext);
     return (
-        <section class="container px-4 mx-auto">
+        <section className="container px-4 mx-auto">
             <header>
                 <h2 className="text-4xl font-bold leading-7  p-10 text-gray-600">Products</h2>
             </header>
